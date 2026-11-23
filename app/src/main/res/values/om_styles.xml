@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OmTitle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/om_text</item>
+    </style>
+    <style name="OmSubtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/om_subtitle</item>
+    </style>
+    <style name="OmLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/om_text</item>
+    </style>
+</resources>

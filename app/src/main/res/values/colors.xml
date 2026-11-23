@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="om_bg">#F7F5F0</color>
+    <color name="om_primary">#2563EB</color>
+    <color name="om_text">#14213D</color>
+    <color name="om_hint">#9AA3B2</color>
+    <color name="om_subtitle">#5B6577</color>
+    <color name="om_border">#E3E6EC</color>
+    <color name="om_card">#EFEBE2</color>
+    <color name="om_green">#3F8F5B</color>
+    <color name="om_chip_bg">#E3F3EA</color>
+    <color name="om_selected_bg">#EAF1FF</color>
+    <color name="primary">#2563EB</color>
+    <color name="primary_light">#EAF1FF</color>
+    <color name="background">#F8F8F6</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="card_border">#E5E7EB</color>
+    <color name="success_light">#E6F4EA</color>
+    <color name="success">#1E8E3E</color>
+</resources>

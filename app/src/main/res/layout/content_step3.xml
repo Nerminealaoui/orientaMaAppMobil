@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/QLabel"
+        android:text="Tes matières préférées" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/QLabel"
+        android:text="Combien d'années après le bac ?" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="true" />
+
+    <TextView
+        style="@style/QLabel"
+        android:text="Ton type d'établissement" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="true" />
+
+    <TextView
+        style="@style/QLabel"
+        android:text="Où aimerais-tu étudier ?" />
+
+    <Spinner
+        android:id="@+id/spCity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_option_normal"
+        android:paddingHorizontal="8dp" />
+
+    <TextView
+        style="@style/QLabel"
+        android:text="Un métier qui t'intéresse ?" />
+
+    <EditText
+        android:id="@+id/etJob"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="none"
+        android:background="@drawable/bg_option_normal"
+        android:hint="Ex. développeur logiciel"
+        android:importantForAutofill="no"
+        android:inputType="textCapSentences"
+        android:paddingHorizontal="16dp"
+        android:textSize="14sp" />
+</LinearLayout>

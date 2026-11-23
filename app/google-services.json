@@ -1,0 +1,17 @@
+{
+  "project_info": {
+    "project_number": "390660796409",
+    "project_id": "orientamaroc",
+    "storage_bucket": "orientamaroc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "android_client_info": {
+          "package_name": "com.example.orienta" // <-- Identifiant autorisé par Firebase
+        }
+      }
+    }
+  ] ,
+  "configuration_version": "1"
+}
